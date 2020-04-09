@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<button class="jumpMiniapp">点击跳转小程序</button>
+
+<script>
+    function jump(link) {
+        top.location.href = link;
+    }
+    document.querySelector('.jumpMiniapp').addEventListener('click', jump('sslocal://microapp?version=v2&app_id=ttbe6ac8d721400026&scene=016002&version_type=current&start_page=pages%2Fsearch%2FsearchResult%2Fresult%3Fkeywords%3D%E6%A6%B4%E8%8E%B2%26utm_source%3Djrtt-zc-dy1-c1%26utm_medium%3Dab-cs8-0000-m1-02-sl&bdpsum=14a600c'))
+</script>
+</body>
+</html>
